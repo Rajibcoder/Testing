@@ -5,8 +5,8 @@ public class TypeCastingDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Implicit Type Casting");
-		int n=10;
+	System.out.println("Implicit Type Casting");
+	int n=10;
         double n1 = n;
         System.out.println(n1);
         
