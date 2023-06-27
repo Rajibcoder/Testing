@@ -4,13 +4,17 @@ public class TypeCastingDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num = 10;
-		double num2 = num;
-		System.out.println(num2);
 		
-		double num3 = 9.8;
-		int num4 = (int)(num3);
-		System.out.println(num4);
+		System.out.println("Implicit Type Casting");
+		int n=10;
+        double n1 = n;
+        System.out.println(n1);
+        
+        System.out.println("Explicit Type Casting");
+        double n2 = 9.8;
+        int n3 = (int)(n2);
+        System.out.println(n3);
+
 	}
 
 }
