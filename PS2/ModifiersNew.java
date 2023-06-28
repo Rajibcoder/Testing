@@ -15,3 +15,6 @@ public class ModifiersNew {
 	}
 
 }
+
+
+// different package non-sub class

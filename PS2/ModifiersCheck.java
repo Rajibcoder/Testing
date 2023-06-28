@@ -13,3 +13,5 @@ public class ModifiersCheck {
 	}
 
 }
+
+// Same package different class

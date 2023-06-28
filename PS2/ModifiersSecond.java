@@ -15,3 +15,6 @@ public class ModifiersSecond extends AccessModifiers{
 	}
 
 }
+
+
+// Different package sub-class

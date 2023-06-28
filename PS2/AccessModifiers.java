@@ -30,3 +30,6 @@ public class AccessModifiers {
 		obj.default1();
 	}
 }
+
+
+//the class where methods are create
