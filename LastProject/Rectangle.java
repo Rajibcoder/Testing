@@ -1,18 +1,20 @@
-package first;
+package test;
 
-public class Rectangle extends Shape{
+public class Rectangle extends First{
 	
-	private double length;
-    private double width;
-    
-    public Rectangle(double length, double width) {
-        this.length = length;
-        this.width = width;
-    }
-    
-    public void calculateArea() {
-        double area = length * width;
-        System.out.println("Area of rectangle: " + area);
-    }
+	private double b;
+	private double w;
+	
+	public Rectangle(double b,double w)
+	{
+		this.b=b;
+		this.w=w;
+	}
+	
+	public void Area()
+	{
+		double cal = b * w;
+		System.out.println("Area of rectangle : "+cal);
+	}
 
 }

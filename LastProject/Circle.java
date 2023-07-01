@@ -1,16 +1,19 @@
-package first;
+package test;
 
-public class Circle extends Shape{
+public class Circle extends First{
 	
-private double radius;
-    
-    public Circle(double radius) {
-        this.radius = radius;
-    }
-    
-    public void calculateArea() {
-        double area = Math.PI * radius * radius;
-        System.out.println("Area of circle: " + area);
-    }
+private double r;
+	
+	public Circle(double r)
+	{
+		super();
+		this.r=r;
+	}
+	
+	public void Area()
+	{
+		double cal = Math.PI * r * r;
+		System.out.println("Area of circle : "+cal);
+	}
 
 }
