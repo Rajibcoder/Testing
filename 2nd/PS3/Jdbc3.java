@@ -15,14 +15,16 @@ public class Jdbc3 {
 		String username = "root";
 		String password = "root";
 		String query = "call selectAllMovies();";
-		
-		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection con = DriverManager.getConnection(dburl,username,password);
-		Statement stmt = con.createStatement();
-		ResultSet rs = stmt.executeQuery(query);
+		Connection con = null;
 		
 		try
 		{
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		con = DriverManager.getConnection(dburl,username,password);
+		Statement stmt = con.createStatement();
+		ResultSet rs = stmt.executeQuery(query);
+		
+		
 			while(rs.next())
 			{
 				System.out.println(rs.getString("director"));
@@ -30,10 +32,10 @@ public class Jdbc3 {
 			
 		}
 		catch (Exception e) {
-			System.out.println("this is an error");
+			System.out.println(e.getMessage());
 		}
 		finally {
-			System.out.println("completed");
+			con.close();
 		}
 	}
 
