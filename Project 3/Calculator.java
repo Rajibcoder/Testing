@@ -16,7 +16,7 @@ public class Calculator {
     }
 	public void div(double a,double b)
 	{
-		System.out.println(a/b);
+		System.out.println(a*b);
 	}
 
 }
