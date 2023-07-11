@@ -1,0 +1,4 @@
+Install Of AutoIt:
+1. go to https://www.autoitscript.com/site/autoit/downloads/
+2. and download AutoIt and download editor
+3. Install both.
